@@ -1,26 +1,58 @@
+
+body {
+  font-family:Georgia,Times,serif;
+
+}
+
+.center{
+   text-align: center;
+}
 fieldset{
   border: 1px solid #ffffff;
   width: 400px;
-  float: left;
+  margin:auto;
+  background-color: #D3D3D3;
+  text-align: center
 }
 
 
 ul {
     list-style-type: none;
+    float:right;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0000ff;
+    background-color: #333;
 }
 
 li {
     float: left;
+    border-right:1px solid #bbb;
 }
 
+
 li a {
-    display: inline-block;
-    color: #ffffff;
+    display: block;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+input[type=submit]{
+      background-color: #ff40ff;
+      border: none;
+      color: #ffffff;
+      padding: 18px 36px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
