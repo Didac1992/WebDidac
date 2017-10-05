@@ -1,0 +1,26 @@
+fieldset{
+  border: 1px solid #ffffff;
+  width: 400px;
+  float: left;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0000ff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
